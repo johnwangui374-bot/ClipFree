@@ -1,0 +1,62 @@
+# Environment
+.env
+.env.local
+.env.*.local
+venv/
+env/
+ENV/
+
+# ClipFree Output
+clipfree_output/
+*.mp4
+*.mkv
+*.mov
+
+# Whisper Cache
+~/.cache/whisper/
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+pip-wheel-metadata/
+share/python-wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+PIPFILE.lock
+
+# IDEs
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.DS_Store
+
+# Testing
+.pytest_cache/
+.coverage
+htmlcov/
+.tox/
+.hypothesis/
+
+# Temp files
+*.tmp
+*.log
+.DS_Store
+Thumbs.db
